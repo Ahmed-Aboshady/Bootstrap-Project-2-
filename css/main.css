@@ -1,0 +1,1157 @@
+/*Page Header Styling*/
+
+.page-header-container {
+    width: 100%;
+    background-color: #00A3C8;
+}
+
+.page-header {
+    background-color: #00A3C8;
+}
+
+.page-header-container .page-header .nav-item a {
+    color: white;
+    font-size: 8pt;
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+.nav-item.facebook:hover {
+    background-color: #3B5998;
+}
+
+.nav-item.twitter:hover {
+    background-color: #55ACEE;
+}
+
+.nav-item.linkedin:hover {
+    background-color: #0077B5;
+}
+
+.nav-item.google:hover {
+    background-color: #D05041;
+}
+
+
+/*Page Header Styling*/
+
+
+/*Nav Bar Styling*/
+
+.navbar {
+    background-color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #666666 !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: rgb(0, 163, 200) !important;
+}
+
+.btn-primary {
+    background-color: #00a3c8 !important;
+    border-color: #00a3c8 !important;
+}
+
+.btn-primary:hover {
+    background-color: #0E8EAB !important;
+    border-color: #0E8EAB !important;
+}
+
+
+/*Nav Bar Styling*/
+
+
+/*Slider Styling*/
+
+.carousel-fade .carousel-item img {
+    height: 650px;
+}
+
+.carousel-caption {
+    bottom: 40% !important;
+}
+
+.carousel-caption h5 {
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    font-size: 10pt;
+    font-weight: 900;
+}
+
+.carousel-caption h2 {
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    font-size: 30pt;
+    font-weight: 900;
+}
+
+.carousel-caption p {
+    font-weight: lighter;
+}
+
+.btn.btn-secondary.slider.more-about-clinic {
+    background-color: #00a3c8;
+    border-color: #00a3c8;
+    color: white;
+    font-size: 10pt;
+}
+
+.btn.btn-secondary.slider.get-more-info {
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    font-size: 10pt;
+}
+
+.btn.btn-secondary.slider.get-more-info:hover {
+    background-color: #333333;
+    border-color: #333333;
+    color: white;
+}
+
+.btn.btn-secondary.slider.more-about-clinic:hover {
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
+
+.btn.btn-secondary.slider.our-core-services {
+    background-color: #00a3c8;
+    border-color: #00a3c8;
+    color: white;
+}
+
+.btn.btn-secondary.slider.view-all-doctors {
+    background-color: #00a3c8;
+    border-color: #00a3c8;
+    color: white;
+    font-size: 10pt;
+}
+
+.btn.btn-secondary.slider.doctors-time-table {
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    font-size: 10pt;
+}
+
+.btn.btn-secondary.slider.doctors-time-table:hover {
+    background-color: #333333;
+    border-color: #333333;
+    color: white;
+}
+
+
+/*Slider Styling*/
+
+
+/* Info Cards*/
+
+.container.info-cards-container {
+    border: none;
+    border-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
+
+@media screen and (min-width: 960px) {
+    .container.info-cards-container {
+        position: relative;
+        z-index: 2;
+        margin-top: -118px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .container.info-cards-container {
+        position: relative;
+        z-index: 2;
+        margin-top: -40px;
+    }
+}
+
+.list-group.info-cards li p {
+    color: #00a3c8;
+    font-size: 0.975rem;
+}
+
+.list-group.info-cards li h5 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.list-group.info-cards li .text {
+    font-size: 0.925rem;
+    color: black;
+    font-weight: lighter;
+    line-height: 20px;
+}
+
+.container.info-cards-container .list-group-item {
+    border: none
+}
+
+@media screen and (min-width: 1200px) {
+    .container.info-cards-container .list-group-item .list-group-item-container {
+        border-right: 1px dashed #ddd;
+        padding-right: 41px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container.info-cards-container .list-group-item .list-group-item-container {
+        border-bottom: 1px dashed #ddd;
+        padding-bottom: 41px;
+    }
+}
+
+
+/*Info Cards*/
+
+
+/*Features Cards*/
+
+.container.features-cards {
+    display: flex;
+}
+
+.container.features-cards img {
+    width: 60px;
+    height: 60px;
+}
+
+.card.feature-card {
+    width: 14rem !important;
+}
+
+.container.features-cards .card.feature-card {
+    border-color: white;
+}
+
+.card.feature-card h5 {
+    color: rgb(0, 72, 97);
+    font-weight: 600;
+    font-size: 12pt;
+}
+
+.card.feature-card p {
+    color: rgb(51, 51, 51);
+    font-size: 10pt;
+}
+
+
+/*Features Cards*/
+
+
+/*HealthCare Solutions Section*/
+
+.solutions-container {
+    width: 100%;
+    background-color: #F8F9FB;
+    padding: 30px 0;
+    margin-bottom: 70px;
+}
+
+.container.solutions-container {
+    text-align: center;
+}
+
+.solutions-container h3 {
+    color: rgb(0, 72, 97);
+    font-size: 2.625rem;
+}
+
+.solutions-container p {
+    color: #888;
+    padding: 0 20%;
+    font-size: 1rem;
+}
+
+.container.solutions-container .card.solutions-card {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container.solutions-container .card.solutions-card p {
+    padding: 0;
+    line-height: 1.5;
+    font: 0.925rem;
+}
+
+.container.solutions-container .card.solutions-card h5 {
+    text-transform: uppercase;
+    color: #00a3c8;
+    font-size: 11pt;
+    font-weight: 900;
+}
+
+.container.solutions-container .card.solutions-card {
+    border: none;
+}
+
+
+/*HealthCare Solutions Section*/
+
+
+/*Services Section*/
+
+.btn.btn-primary.btn-lg.services.active {
+    background-color: #00a3c8 !important;
+    border-color: #00a3c8 !important;
+    color: white;
+    border-radius: 6px;
+}
+
+.btn.btn-primary.btn-lg.services.active:hover {
+    background-color: #00a3c8 !important;
+    border-color: #00a3c8 !important;
+    color: white;
+    border-radius: 6px;
+}
+
+.btn.btn-primary.btn-lg.services {
+    background-color: transparent!important;
+    border-color: transparent !important;
+    color: #ccc;
+}
+
+.btn.btn-primary.btn-lg.services:hover {
+    background-color: #F5F5F5!important;
+    border-color: #F5F5F5 !important;
+    color: rgb(153, 153, 153);
+}
+
+.card.mb-3.services-card {
+    max-width: 100% !important;
+    border: transparent;
+}
+
+.card.mb-3.mt-5.services-card h3 {
+    color: rgb(0, 72, 97);
+    font-weight: 500;
+    font-size: 30pt;
+}
+
+.card.mb-3.mt-5.services-card .card-body .card-text.pediatric {
+    font-weight: lighter;
+    color: rgb(51, 51, 51);
+}
+
+.card.mb-3.mt-5.services-card .card-body {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.btn.btn-secondary.services.view-more {
+    color: white;
+    background-color: #00a3c8;
+    border-color: #00a3c8;
+    font-size: 10pt;
+}
+
+.btn.btn-secondary.services.view-more:hover {
+    background-color: #0E8EAB;
+    border-color: #0E8EAB;
+}
+
+.card.mb-3.mt-5.pt-lg-5.services-card .box-list .icon {
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+    float: left;
+    margin-right: 7px;
+    color: #00a3c8;
+}
+
+.card.mb-3.mt-5.pt-lg-5.services-card .box-list p {
+    overflow: hidden;
+    margin-bottom: 8px;
+    font-weight: lighter;
+    color: rgb(51, 51, 51);
+}
+
+
+/*Services Section*/
+
+
+/*Statistics*/
+
+.statistics-container {
+    width: 100%;
+    background-image: url(../images/statistic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.statistics-container .statistics-number {
+    color: white;
+    font-weight: 600;
+    font-size: 30pt;
+}
+
+.statistics-container .statistics-text {
+    color: white;
+    font-size: 15pt;
+}
+
+
+/*Statistics*/
+
+
+/*Start Info-2 Section*/
+
+.container.info-2-section .card {
+    border: none;
+}
+
+.container.info-2-section .card .card-body .card-title {
+    font-size: 0.825rem;
+    color: #00a3c8;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+@media only screen and (min-width:1200px) {
+    .container.info-2-section .card .card-body h3 {
+        font-size: 2.625rem;
+        color: #004861;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .container.info-2-section .card .card-body h3 {
+        font-size: 2.125rem;
+        color: #004861;
+        font-weight: 600;
+    }
+    .container.info-2-section img {
+        width: 100%;
+    }
+}
+
+.container.info-2-section .card .card-body p {
+    color: #333333;
+    font-weight: 300;
+    font-size: 13pt;
+}
+
+.container.info-2-section .card .card-body .box-list .icon {
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+    float: left;
+    margin-right: 7px;
+    color: #00a3c8;
+}
+
+.container.info-2-section .card .card-body .box-list p {
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+
+/* End Info-2 Section*/
+
+
+/*Start Patients Opinions Section*/
+
+.patient-opinions-container {
+    width: 100%;
+    background-color: #F8F9FB;
+}
+
+.patient-opinions-container .col.patient-opinions-header-text {
+    text-align: center;
+}
+
+.patient-opinions-container .col.patient-opinions-header-text h3 {
+    color: #004861;
+    font-size: 2.625rem;
+    font-weight: 700;
+}
+
+.patient-opinions-container .col.patient-opinions-header-text p {
+    color: #888;
+    padding: 0 20%;
+    margin-bottom: 0;
+}
+
+.patient-opinions-container .row.cards {
+    text-align: center;
+}
+
+.patient-opinions-container .row.cards .card {
+    border: none;
+    padding: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
+
+.patient-opinions-container .row.cards .card .card-body {
+    display: block;
+    position: relative;
+}
+
+.patient-opinions-container .row.cards .card .card-body p {
+    color: #444;
+    font-size: 1.35rem;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.35;
+    font-weight: 400;
+}
+
+.patient-opinions-container .row.cards .card .card-body h5 {
+    font-size: 0.775rem;
+    line-height: 1;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #222;
+}
+
+.patient-opinions-container .row.cards .card .card-body span {
+    color: #959595;
+    font-size: 0.7rem;
+    line-height: 1;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.patient-opinions-container .row.cards .card .card-body img {
+    border-radius: 50%;
+}
+
+.patient-opinions-container .row.cards .card .card-body::after {
+    content: "";
+    background-image: url(../images/quote.png);
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-size: 100px 103px;
+    background-position: center;
+    opacity: 0.2;
+    position: absolute;
+    top: 23px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+@media only screen and (max-width:1200px) {
+    .col.item-hide {
+        display: none;
+    }
+}
+
+
+/* End Patients Opinions Section*/
+
+
+/*Start Doctor Section*/
+
+.patient-opinions-container {
+    width: 100%;
+    background-color: #F8F9FB;
+}
+
+.doctors-container .col.doctors-header-text {
+    text-align: center;
+}
+
+.doctors-container .col.doctors-header-text h3 {
+    color: #004861;
+    font-size: 2.625rem;
+    font-weight: 700;
+}
+
+.doctors-container .col.doctors-header-text p {
+    color: #888;
+    padding: 0 20%;
+    margin-bottom: 0;
+}
+
+.doctors-container .card {
+    border: none;
+}
+
+.doctors-container .card .card-body {
+    padding: 20px 0;
+}
+
+.doctors-container .card .card-body h5 {
+    font-size: 1.1875rem;
+    color: #004861;
+    text-align: left;
+    font-weight: 700;
+}
+
+.doctors-container .card .card-body p {
+    color: #00a3c8;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.doctors-container .card .card-body .card-text {
+    color: #666;
+}
+
+.doctors-container .btn.btn-secondary {
+    background-color: #00a3c8;
+    border-color: #00a3c8;
+    color: white;
+    font-size: 10pt;
+    padding: 10px 20px;
+}
+
+.doctors-container .btn.btn-secondary:hover {
+    background-color: #0E8EAB;
+    border-color: #0E8EAB;
+}
+
+.doctors-container .row.btn-row {
+    text-align: center;
+}
+
+
+/*End Doctor Section*/
+
+
+/*Start Dates Section*/
+
+.dates-container {
+    width: 100%;
+    background-color: #00A3C8;
+    position: relative;
+}
+
+.container-fluid.dates img {
+    width: 100%;
+    height: 100%;
+}
+
+.container-fluid.dates .col.item-hide {
+    background-image: url(../images/info-9.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    left: 50%;
+}
+
+@media only screen and (min-width:1200px) {
+    .container-fluid.dates .col.dates {
+        background-color: #00A3C8;
+        /* position: relative;
+        left: 568px; */
+    }
+}
+
+.container-fluid.dates .col.dates {
+    background-color: #00A3C8;
+}
+
+.container-fluid.dates h4 {
+    color: white;
+    font-size: 1.625rem;
+    font-weight: 700;
+    letter-spacing: -0.25px;
+}
+
+.container-fluid.dates p {
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.container-fluid.dates h5 {
+    color: white;
+    font-size: 1.1875rem;
+    font-weight: 700;
+    letter-spacing: -0.25px;
+}
+
+.table td {
+    border-top: none !important;
+    border: none !important;
+}
+
+.table td {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.dash {
+    text-align: center;
+}
+
+.time {
+    text-align: right;
+}
+
+.table .border {
+    border-bottom: 1px dashed rgba(255, 255, 255, .6) !important;
+}
+
+@media only screen and (max-width:1200px) {
+    .container-fluid.dates .col.col-color {
+        display: none;
+    }
+    .container-fluid.dates .col.item-hide {
+        display: none;
+    }
+}
+
+
+/*End Dates Section*/
+
+
+/*Start Qualified Section*/
+
+.container.qualified.doctors {
+    text-align: left;
+}
+
+.container.qualified.doctors .card {
+    border: none;
+    text-align: left;
+}
+
+.container.qualified.doctors .card-body h2 {
+    font-size: 2.625rem;
+    color: #004861;
+    font-weight: 700;
+    letter-spacing: -0.25px;
+}
+
+.container.qualified.doctors .card-body h5 {
+    color: #00a3c8;
+    font-size: 0.825rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.container.qualified.doctors .card-body .card-text {
+    font-size: 1rem;
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #333;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+
+/*End Qualified Section*/
+
+
+/*start technology section*/
+
+.technology-container {
+    width: 100%;
+    background-color: #F8F9FB;
+}
+
+.technology-container .card {
+    border: none;
+    background-color: #F8F9FB;
+}
+
+.technology-container .card h5 {
+    color: #00a3c8;
+    font-size: 0.825rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.technology-container .card h2 {
+    font-size: 2.625rem;
+    color: #004861;
+    font-weight: 700;
+    letter-spacing: -0.25px;
+}
+
+.technology-container .card ul {
+    padding: 0;
+    list-style-type: circle;
+}
+
+.technology-container .card ul li {
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.video-icon {
+    position: absolute;
+    top: 31%;
+    bottom: 51%;
+    right: 67%;
+    left: 41%;
+}
+
+@media only screen and (max-width:1200px) {
+    .video-icon {
+        position: absolute;
+        top: 34%;
+        bottom: 51%;
+        right: 67%;
+        left: 34%;
+    }
+    .image-video {
+        padding-top: 20px;
+    }
+}
+
+
+/*end technology section*/
+
+
+/*Start Quality Section*/
+
+.container.quality .row.quality-section-header {
+    text-align: center;
+}
+
+.container.quality .row.quality-section-header p {
+    color: #888;
+    padding: 0 20%;
+    margin-bottom: 0;
+}
+
+.container.quality .row.quality-section-header h3 {
+    color: #004861;
+    font-size: 2.625rem;
+    font-weight: 700;
+}
+
+.container.quality .card .card-body .card-title {
+    color: #222;
+    font-size: 18pt;
+    font-weight: 700;
+}
+
+.container.quality .card .card-body .price sup {
+    font-size: 45px;
+    font-weight: 700;
+    color: #004861;
+    top: -7px
+}
+
+.container.quality .card .card-body .price span {
+    font-size: 70px;
+    font-family: 'Lato', sans-serif;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    color: #004861;
+}
+
+.container.quality .card .card-body .price p {
+    color: #888;
+}
+
+.container.quality .card .card-body ul {
+    list-style-type: none;
+    color: #888;
+    padding: 0;
+}
+
+.container.quality .card .card-body ul li {
+    padding-bottom: 10px;
+}
+
+.btn.card1-btn {
+    margin-bottom: 25px;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 10pt;
+    padding: 10px 40px;
+    font-size: 12pt;
+}
+
+.btn.card1-btn:hover {
+    background-color: #00a3c8;
+    border-color: #00a3c8;
+    color: white;
+}
+
+.btn.card2-btn {
+    margin-bottom: 25px;
+    background-color: #00a3c8;
+    border: 1px solid #00a3c8;
+    color: white;
+    border-radius: 6px;
+    font-size: 10pt;
+    padding: 10px 40px;
+    font-size: 12pt;
+}
+
+.btn.card2-btn:hover {
+    background-color: #0E8EAB;
+    border-color: #0E8EAB;
+    color: white;
+}
+
+.row.quality-section-footer span {
+    color: #333;
+    font-weight: 900;
+}
+
+
+/*End Quality Section*/
+
+
+/*Start Banner Section*/
+
+.container-fluid.banner {
+    background-image: url(../images/banner-7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center center;
+    width: 100%;
+    padding-bottom: 70px;
+}
+
+@media only screen and (max-width:1200px) {
+    .container-fluid.banner {
+        background-size: contain;
+    }
+}
+
+.container-fluid.banner h2 {
+    line-height: 1.25;
+    font-size: 3.25rem;
+    color: white;
+    font-weight: 700;
+}
+
+.container-fluid.banner p {
+    color: white;
+    font-weight: 300;
+}
+
+.btn.banner {
+    color: white;
+    background-color: #00a3c8;
+    border-color: #00a3c8;
+    font-size: 10pt;
+    border-radius: 6px;
+    padding: 10px 40px;
+    font-size: 12pt;
+}
+
+.btn.banner:hover {
+    color: white;
+    background-color: transparent;
+    border-color: white;
+}
+
+
+/*End Banner Section*/
+
+
+/*Start News Section*/
+
+.container.news .card {
+    border: none;
+}
+
+.container.news .card .card-body {
+    padding: 20px 0;
+}
+
+.container.news .card .card-body h5 {
+    font-size: 1.1875rem;
+    color: #004861;
+    text-align: left;
+    font-weight: 700;
+}
+
+.container.news .card .card-body p {
+    color: #333;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.container.news .card .card-body .card-text {
+    color: #666;
+}
+
+.container.news .col.news-header-text {
+    text-align: center;
+}
+
+.container.news .col.news-header-text h3 {
+    color: #004861;
+    font-size: 2.625rem;
+    font-weight: 700;
+}
+
+.container.news .col.news-header-text p {
+    color: #888;
+    padding: 0 20%;
+    margin-bottom: 0;
+}
+
+
+/*End New Section*/
+
+
+/*start Search Section*/
+
+.search-container {
+    width: 100%;
+    background-image: url(../images/statistic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+
+.search-container h3 {
+    font-weight: 600;
+}
+
+.btn.search {
+    color: white;
+    border: 1px solid white;
+    float: right;
+    background-color: transparent;
+    font-size: 10pt;
+    border-radius: 6px;
+    padding: 10px 40px;
+    font-size: 12pt;
+}
+
+.btn.search:hover {
+    background-color: #0E8EAB;
+    border-color: #0E8EAB;
+}
+
+@media only screen and (max-width:1200px) {
+    .btn.search {
+        float: none;
+        margin-top: 20px;
+    }
+    .search-container {
+        text-align: center;
+    }
+}
+
+
+/*end Search Section*/
+
+
+/*Start Page Footer*/
+
+.container.page-footer {
+    font-size: 0.85rem;
+    color: #333;
+    font-weight: 300;
+    text-align: left;
+}
+
+.container.page-footer .col.section1 a {
+    text-decoration: none;
+    color: #666;
+}
+
+.container.page-footer .col.section1 a:hover {
+    color: white;
+}
+
+.container.page-footer .col.section1 ul .facebook:hover {
+    background-color: #3B5998;
+    color: white;
+    border-color: transparent;
+}
+
+.container.page-footer .col.section1 ul .twitter:hover {
+    background-color: #2CB8EE;
+    color: white;
+    border-color: transparent;
+}
+
+.container.page-footer .col.section1 ul .linkedin:hover {
+    background-color: #3A5976;
+    border-color: transparent;
+    color: white;
+}
+
+.container.page-footer .col.section1 ul .google:hover {
+    background-color: #CD1111;
+    color: white;
+    border-color: transparent;
+}
+
+.container.page-footer .col.section1 ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.container.page-footer .col.section1 ul li {
+    display: inline-block;
+    margin-right: 3px;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #666;
+    border-radius: 50%;
+}
+
+.container.page-footer .col.section3 ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.container.page-footer .col.section3 ul a {
+    color: #666;
+}
+
+.container.page-footer .col.section3 ul li {
+    margin-bottom: 8px;
+}
+
+.container.page-footer .col.section4 ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.container.page-footer .col.section4 ul a {
+    color: #666;
+}
+
+.container.page-footer .col.section4 ul li {
+    margin-bottom: 8px;
+}
+
+.container.page-footer h5 {
+    columns: #222222;
+    font-weight: 500;
+}
+
+.container.page-footer .col.footer-border {
+    border-top: 1px solid #ddd;
+}
+
+.MedServices {
+    color: #333;
+    font-weight: 700;
+}
+
+
+/*End Page Footer*/
